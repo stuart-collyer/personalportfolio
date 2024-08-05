@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html id="page" class="default">
+
+<head>
+    <script src="https://kit.fontawesome.com/ac7cbb4b55.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <!-- Add link to google font Exo 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- <script src="./script.js"></script> -->
+    <title>Stuart Collyer Portfolio</title>
+
+</head>
+
+<body>
+    <header>
+        <form action="#">
+            <label for="theme">Select a color scheme:</label>
+            <select id='theme' name="theme">
+                <option selected value='default'>Default</option>
+                <option value='barbie'>Barbie</option>
+                <option value='usa'>USA</option>
+                <option value='brat'>Brat</option>
+                <option value='monochrome'>Monochrome</option>
+            </select>
+        </form>
+        <h1>Stuart Collyer</h1>
+        <p id="date"></p>
+    </header>
+
+    <div class="grid">
+
+
+        <section id="leftSide">
+            <i class="fa-brands fa-html5 fa-3x"></i>
+            <i class="fa-brands fa-css3 fa-3x"></i>
+            <i class="fa-brands fa-js fa-3x"></i>
+            <i class="fa-brands fa-git fa-3x"></i>
+            <i class="fa-brands fa-github fa-3x"></i>
+            <i class="fa-brands fa-node fa-3x"></i>
+        </section>
+
+        <section id="rightSide">
+            <i class="fa-brands fa-html5 fa-3x"></i>
+            <i class="fa-brands fa-css3 fa-3x"></i>
+            <i class="fa-brands fa-js fa-3x"></i>
+            <i class="fa-brands fa-git fa-3x"></i>
+            <i class="fa-brands fa-github fa-3x"></i>
+            <i class="fa-brands fa-node fa-3x"></i>
+        </section>
+
+        <section class="about">Hi, my name is Stuart. Welcome to my personal portfolio web page. I am currently studying
+            the Full Stack Engineer course at Codecademy. These are the projects I have completed so far. Click each screenshot to visit the site. The gitHub repos can be accessed by clicking the gitHub icon at the bottom of the page.
+    </section>
+
+        <section class="projectCard left lineOne">
+
+            <h2>Style Guide</h2>
+            <a href="https://stuart-collyer.github.io/websitedesignsystem/" target="_blank" rel="noopener noreferrer"><img src="./styleGuide.png" alt=""></a>
+            <p>In this project I had to create a web site style guide to organize the look and feel for a web site being developed. The solution is based on the Cheat Sheet project.</p>
+            <br>
+            <i class="fa-brands fa-html5 fa-2x"></i>
+            <i class="fa-brands fa-css3 fa-2x"></i>
+
+        </section>
+
+        <section class="projectCard right lineOne">
+            <h2>Cheat Sheet</h2>
+            <a href="https://stuart-collyer.github.io/cheatsheet/" target="_blank" rel="noopener noreferrer"><img src="./cheetsheet.png" alt=""></a>
+            <p>This is a static web page built using HTML and CSS. The project required me to build a cheatsheet for one
+                aspect of HTML or CSS. This project pairs with the style guide project.</p>
+            <br>
+            <i class="fa-brands fa-html5 fa-2x"></i>
+            <i class="fa-brands fa-css3 fa-2x"></i>
+
+        </section>
+
+        <section class="projectCard left lineTwo">
+            <h2>Fanfare Trumpets</h2>
+            <a href="https://stuart-collyer.github.io/fanfaretrumpets/" target="_blank" rel="noopener noreferrer"><img src="./fanfareTrumpets.png" alt=""></a>
+            <p>The brief for this challenge was to build a fictitious company home page and to use flexbox in doing so.
+                This was also my first time making a page responsive and using media queries.</p>
+            <br>
+            
+            <i class="fa-brands fa-html5 fa-2x"></i>
+            <i class="fa-brands fa-css3 fa-2x"></i>
+       
+        </section>
+
+        <section class="projectCard right lineTwo">
+            <h2>Mixed Messages</h2>
+            <a href="https://github.com/stuart-collyer/mixedMessages" target="_blank" rel="noopener noreferrer"><img src="./fakeSportHeadline.png" alt=""></a>
+            <p>This a random sports headline generator. Each time a user runs the program, a new, randomized output is printed.
+                This project also required using git for version control and placing the project on gitHub with a readme file.
+            </p>
+            <br>
+            
+            <i class="fa-brands fa-js fa-2x"></i>
+            <i class="fa-brands fa-node fa-2x"></i>
+            <i class="fa-brands fa-git fa-2x"></i>
+            <i class="fa-brands fa-github fa-2x"></i>
+       
+        </section>
+
+        <footer>
+            <h2>Get in touch:</h2>
+            <!-- <a href="mailto:stuarticollyer@icloud.co"><i class="fa-solid fa-envelope fa-5x"
+                    style="color: #000000;"></i></a> -->
+                    <a href="mailto:stuarticollyer@icloud.co"><i class="fa-solid fa-envelope fa-5x"></i></a>
+            <!-- <a href=""><i class="fa-brands fa-whatsapp fa-5x" style="color: #63E6BE;"></i></a> -->
+            <a href="https://github.com/stuart-collyer?tab=repositories" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-github fa-5x"></i></a>
+            <!-- <a href="https://x.com/stuarticollyer" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter fa-5x" style="color: #000000;"></i></a> -->
+            <a href="https://x.com/stuarticollyer" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter fa-5x"></i></a>
+            <!-- <a href=""><i class="fa-brands fa-stack-overflow fa-5x"></i><a> -->
+        </footer>
+
+    </div>
+</body>
+
+</html>
